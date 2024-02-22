@@ -11,6 +11,9 @@
     @apply bg-neutral-800;
   }
 }
-
+body{
+  background-image: url(../public/Images/realistic-coffee-background-with-drawings_157027-1112.avif);
+  background-size: cover;
+}
 @tailwind components;
 @tailwind utilities;
