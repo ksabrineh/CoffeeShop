@@ -2,6 +2,7 @@ import React from "react";
 import MenuBarPage from "../MenuBar/MenuBarPage";
 import LandingPage from "../LandingPage/LandingPage";
 import ProductCards from "../ProductCards/ProductCards";
+import AboutUsPage from "../AboutUs/AboutUsPage";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <MenuBarPage />
       <LandingPage/>
       <ProductCards/>
+      <AboutUsPage/>
     </div>
   );
 };
