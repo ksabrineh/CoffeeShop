@@ -1,5 +1,5 @@
 import React from "react";
-import CoffeeImage from "@/public/Images/transparent-coffee-cup-coffee-cup-with-heart-design-and-roses65930f17a76267.4562058017041364716856-removebg-preview.png";
+import CoffeeImage from "@/public/Images/61qtwk9VXCL.png";
 import Image from "next/image";
 
 const AboutUsPage = () => {
@@ -28,8 +28,8 @@ const AboutUsPage = () => {
         </div>
       </div>
       <div className="w-[50%] flex justify-center items-center pr-10">
-        <div className="relative w-full">
-          <Image alt="coffee photo" src={CoffeeImage} />
+        <div className="relative w-[80%]">
+          <Image alt="coffee photo" src={CoffeeImage}/>
           <div className="absolute w-20 font-bold text-xl h-20 p-2 top-10 right-20 bg-white bg-opacity-80 text-orange-950 flex justify-center items-center rounded-3xl">
             $2.50
           </div>

@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <LocalCafeOutlined />
           </div>
-          <div className="font-bold text-xl">Flovered</div>
+          <div className="font-bold text-xl">Sabrineh</div>
         </div>
         <div className="text-xs">Wake Up to Something Special</div>
       </div>

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import CoffeeImage from "@/public/Images/transparent-coffee-cup-coffee-cup-with-heart-design-and-roses65930f17a76267.4562058017041364716856-removebg-preview.png";
+import CoffeeImage1 from "@/public/Images/isolated-coffee-latte-top-view-in-a-mug-free-png (1).png";
+import CoffeeImage2 from "@/public/Images/isolated-coffee-latte-top-view-in-a-mug-free-png.png";
+
 import {
   FavoriteBorderOutlined,
   ShoppingCartOutlined,
@@ -29,7 +31,7 @@ const ProductCards = () => {
             <div className="relative bg-black">
               <Image
                 alt="coffee photo"
-                src={CoffeeImage}
+                src={CoffeeImage2}
                 className="absolute w-40 h-40 object-contain -top-20 right-10"
               />
             </div>
@@ -57,7 +59,7 @@ const ProductCards = () => {
             <div className="relative bg-black">
               <Image
                 alt="coffee photo"
-                src={CoffeeImage}
+                src={CoffeeImage1}
                 className="absolute w-40 h-40 object-contain -top-20 right-10"
               />
             </div>

@@ -21,7 +21,7 @@ const MenuBarPage = () => {
           <div>
             <LocalCafeOutlined/>
           </div>
-          <div className="font-bold text-lg">Flovered</div>
+          <div className="font-bold text-lg">Sabrineh</div>
         </div>
         <div className="text-xs">Wake Up to Something Special</div>
       </div>
