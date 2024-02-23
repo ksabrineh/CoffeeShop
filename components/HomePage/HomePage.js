@@ -3,6 +3,7 @@ import MenuBarPage from "../MenuBar/MenuBarPage";
 import LandingPage from "../LandingPage/LandingPage";
 import ProductCards from "../ProductCards/ProductCards";
 import AboutUsPage from "../AboutUs/AboutUsPage";
+import ContactUs from "../ContactUs/ContactUs";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <LandingPage/>
       <ProductCards/>
       <AboutUsPage/>
+      <ContactUs/>
     </div>
   );
 };
