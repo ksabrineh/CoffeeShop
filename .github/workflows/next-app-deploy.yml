@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact for deployment
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           path: ./out
 
@@ -47,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
