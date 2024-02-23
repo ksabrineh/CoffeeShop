@@ -33,10 +33,10 @@ jobs:
       - name: Build Next.js App
         run: npm run build
 
-      - name: Upload artifact for deployment
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out
+      # - name: Upload artifact for deployment
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: ./out
 
   deploy:
     needs: build
