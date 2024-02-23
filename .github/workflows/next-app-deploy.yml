@@ -48,5 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-# Latest Workflows > https://github.com/Mahdi-Hazrati/react-gh-pages-workflows
