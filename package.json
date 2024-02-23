@@ -2,6 +2,7 @@
   "name": "coffee-shop-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ksabrineh.github.io/CoffeeShop/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
