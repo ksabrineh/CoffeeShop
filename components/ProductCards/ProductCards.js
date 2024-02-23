@@ -9,7 +9,7 @@ import {
 } from "@mui/icons-material";
 const ProductCards = () => {
   return (
-    <div className="w-full pl-20 flex pr-20">
+    <div className="w-full pl-20 flex pr-20 pt-20">
       <div className="w-[40%]">
         <div className="flex pb-20 text-orange-950 flex-col items-end w-full">
           <div className="text-4xl font-bold">Lorem Ipsum is</div>
